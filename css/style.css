@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin: 30px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background: lightgrey;
+}
+
+.scores {
+    margin: 20px;
+}
+
+button.start {
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px;
+    background: #00FF7F;
+}
+
+td.active {
+    background: green;
+}
